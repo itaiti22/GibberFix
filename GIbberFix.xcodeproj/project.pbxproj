@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1302B94D2DDBA19F000836A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1302B9362DDBA19E000836A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1302B93D2DDBA19E000836A3;
+			remoteInfo = GIbberFix;
+		};
+		1302B9572DDBA19F000836A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1302B9362DDBA19E000836A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1302B93D2DDBA19E000836A3;
+			remoteInfo = GIbberFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1302B93E2DDBA19E000836A3 /* GIbberFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIbberFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1302B94C2DDBA19F000836A3 /* GIbberFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIbberFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1302B9562DDBA19F000836A3 /* GIbberFixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIbberFixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1302B9402DDBA19E000836A3 /* GIbberFix */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GIbberFix;
+			sourceTree = "<group>";
+		};
+		1302B94F2DDBA19F000836A3 /* GIbberFixTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GIbberFixTests;
+			sourceTree = "<group>";
+		};
+		1302B9592DDBA19F000836A3 /* GIbberFixUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GIbberFixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1302B93B2DDBA19E000836A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B9492DDBA19F000836A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B9532DDBA19F000836A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1302B9352DDBA19E000836A3 = {
+			isa = PBXGroup;
+			children = (
+				1302B9402DDBA19E000836A3 /* GIbberFix */,
+				1302B94F2DDBA19F000836A3 /* GIbberFixTests */,
+				1302B9592DDBA19F000836A3 /* GIbberFixUITests */,
+				1302B93F2DDBA19E000836A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1302B93F2DDBA19E000836A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1302B93E2DDBA19E000836A3 /* GIbberFix.app */,
+				1302B94C2DDBA19F000836A3 /* GIbberFixTests.xctest */,
+				1302B9562DDBA19F000836A3 /* GIbberFixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1302B93D2DDBA19E000836A3 /* GIbberFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302B9602DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFix" */;
+			buildPhases = (
+				1302B93A2DDBA19E000836A3 /* Sources */,
+				1302B93B2DDBA19E000836A3 /* Frameworks */,
+				1302B93C2DDBA19E000836A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1302B9402DDBA19E000836A3 /* GIbberFix */,
+			);
+			name = GIbberFix;
+			packageProductDependencies = (
+			);
+			productName = GIbberFix;
+			productReference = 1302B93E2DDBA19E000836A3 /* GIbberFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1302B94B2DDBA19F000836A3 /* GIbberFixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302B9632DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFixTests" */;
+			buildPhases = (
+				1302B9482DDBA19F000836A3 /* Sources */,
+				1302B9492DDBA19F000836A3 /* Frameworks */,
+				1302B94A2DDBA19F000836A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1302B94E2DDBA19F000836A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1302B94F2DDBA19F000836A3 /* GIbberFixTests */,
+			);
+			name = GIbberFixTests;
+			packageProductDependencies = (
+			);
+			productName = GIbberFixTests;
+			productReference = 1302B94C2DDBA19F000836A3 /* GIbberFixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1302B9552DDBA19F000836A3 /* GIbberFixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302B9662DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFixUITests" */;
+			buildPhases = (
+				1302B9522DDBA19F000836A3 /* Sources */,
+				1302B9532DDBA19F000836A3 /* Frameworks */,
+				1302B9542DDBA19F000836A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1302B9582DDBA19F000836A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1302B9592DDBA19F000836A3 /* GIbberFixUITests */,
+			);
+			name = GIbberFixUITests;
+			packageProductDependencies = (
+			);
+			productName = GIbberFixUITests;
+			productReference = 1302B9562DDBA19F000836A3 /* GIbberFixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1302B9362DDBA19E000836A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1302B93D2DDBA19E000836A3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1302B94B2DDBA19F000836A3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1302B93D2DDBA19E000836A3;
+					};
+					1302B9552DDBA19F000836A3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1302B93D2DDBA19E000836A3;
+					};
+				};
+			};
+			buildConfigurationList = 1302B9392DDBA19E000836A3 /* Build configuration list for PBXProject "GIbberFix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1302B9352DDBA19E000836A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1302B93F2DDBA19E000836A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1302B93D2DDBA19E000836A3 /* GIbberFix */,
+				1302B94B2DDBA19F000836A3 /* GIbberFixTests */,
+				1302B9552DDBA19F000836A3 /* GIbberFixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1302B93C2DDBA19E000836A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B94A2DDBA19F000836A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B9542DDBA19F000836A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1302B93A2DDBA19E000836A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B9482DDBA19F000836A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302B9522DDBA19F000836A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1302B94E2DDBA19F000836A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1302B93D2DDBA19E000836A3 /* GIbberFix */;
+			targetProxy = 1302B94D2DDBA19F000836A3 /* PBXContainerItemProxy */;
+		};
+		1302B9582DDBA19F000836A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1302B93D2DDBA19E000836A3 /* GIbberFix */;
+			targetProxy = 1302B9572DDBA19F000836A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1302B95E2DDBA19F000836A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1302B95F2DDBA19F000836A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1302B9612DDBA19F000836A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIbberFix/GIbberFix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1302B9622DDBA19F000836A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIbberFix/GIbberFix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1302B9642DDBA19F000836A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIbberFix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIbberFix";
+			};
+			name = Debug;
+		};
+		1302B9652DDBA19F000836A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIbberFix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIbberFix";
+			};
+			name = Release;
+		};
+		1302B9672DDBA19F000836A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GIbberFix;
+			};
+			name = Debug;
+		};
+		1302B9682DDBA19F000836A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Itai.GIbberFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GIbberFix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1302B9392DDBA19E000836A3 /* Build configuration list for PBXProject "GIbberFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302B95E2DDBA19F000836A3 /* Debug */,
+				1302B95F2DDBA19F000836A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302B9602DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302B9612DDBA19F000836A3 /* Debug */,
+				1302B9622DDBA19F000836A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302B9632DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302B9642DDBA19F000836A3 /* Debug */,
+				1302B9652DDBA19F000836A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302B9662DDBA19F000836A3 /* Build configuration list for PBXNativeTarget "GIbberFixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302B9672DDBA19F000836A3 /* Debug */,
+				1302B9682DDBA19F000836A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1302B9362DDBA19E000836A3 /* Project object */;
+}
